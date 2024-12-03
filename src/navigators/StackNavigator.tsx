@@ -16,10 +16,10 @@ function StackNavigator() {
                     gestureEnabled: true
                 })}
             >
-                <Stack.Screen name="SignUp" component={SignUp}/>
-                <Stack.Screen name="SignIn" component={SignIn}/>
-                <Stack.Screen name="Home" component={Homepage}/>
-                <Stack.Screen name="Profile" component={ProfileScreen}/>
+                <Stack.Screen name="SignUp" component={SignUp} />
+                <Stack.Screen name="SignIn" component={SignIn} />
+                <Stack.Screen name="Home" component={Homepage} />
+                <Stack.Screen name="Profile" component={ProfileScreen} />
             </Stack.Navigator>
         </NavigationContainer>
     );

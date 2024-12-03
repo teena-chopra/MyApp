@@ -6,15 +6,7 @@ const SignIn = ({ navigation }:any) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
-  // const handleSignIn = () => {
-  //   if (email === '' || password === '') {
-  //     Alert.alert('Error', 'Please fill in all fields.');
-  //     return;
-  //   }
-  //   // Replace this with actual sign-in logic (e.g., Firebase authentication)
-  //   Alert.alert('Success', `Signed in as ${email}`);
-  //   navigation.replace('Home'); 
-  // };
+  
 
   const handleSignIn = () => {
    
